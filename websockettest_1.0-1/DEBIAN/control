@@ -1,0 +1,14 @@
+Package: websockettest
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: i386
+Depends: apache2 (>= 2.4.18-2ubuntu3.1), git (>= 1:2.7.4-0ubuntu1)
+Maintainer: Oparin Artem <amka.vbg@gmail.com>
+Description: WebSocket testing package
+ Readme:
+ adeptest.sh - apache module websocket auto deploy to testing
+ websocket_test.py - stress test for websocket
+ Need to run:
+ apache-websocket 'git clone https://github.com/disconnect/apache-websocket'
+ websocket-client 'git clone https://github.com/liris/websocket-client.git'
